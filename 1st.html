@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./1st.js"></script>
+</head>
+<body>
+    <label for="education">What is your education: </label>
+    <select name="education" id="education" onchange="educationData()">
+        <option value="mid">Middle</option>
+        <option value="mat">Matriculation</option>
+        <option value="int">Inter</option>
+        <option value="cs" checked>BSCS(CS)</option>
+    </select>
+
+    <label for="profession">What is your Profession: </label>
+    <select name="profession" id="profession" onchange="professionPeoples()">
+        <option value="Web developer" checked>Web Developer</option>
+        <option value="Apps Devp"> App Developer</option>
+        <option value="Software Developer">Software Developer</option>
+        <option value="ios developer">IOS Developer</option>
+    </select>
+
+
+    <br>
+    <label for="">Gender:</label>
+    <label for="">&nbsp; Male
+        <input type="radio" name="gender" checked="checked" value="male">
+    </label>
+    <label for="">Female
+        <input type="radio" name="gender" value="female">
+    </label>
+
+</body>
+</html>
